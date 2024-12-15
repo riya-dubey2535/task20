@@ -9,7 +9,7 @@ import img7 from './Shoe7.jpeg';
 import img8 from './Shoe8.jpg'; 
 import img9 from './Shoe9.jpeg';
 import img10 from './Shoe10.jpeg'; 
-
+import logo from './chiku_18_prev_ui.png'
 
 
 function App() {
@@ -81,7 +81,7 @@ function App() {
   return (
     <>
       <div className='navbar'>
-        <img src="/src/chiku_18_prev_ui.png" alt=" can't load" />
+        <img src={logo} alt=" can't load" />
         <div className='navbar1'>
           <h1>Home</h1>
           <h1>Categories</h1>
