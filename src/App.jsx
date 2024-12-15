@@ -1,4 +1,16 @@
 import { useState } from 'react';
+import img1 from './Shoe1.jpeg'; 
+import img2 from './Shoe2.jpeg'; 
+import img3 from './Shoe3.jpeg'; 
+import img4 from './Shoe4.jpeg'; 
+import img5 from './Shoe5.jpeg'; 
+import img6 from './Shoe6.jpg'; 
+import img7 from './Shoe7.jpeg'; 
+import img8 from './Shoe8.jpg'; 
+import img9 from './Shoe9.jpeg';
+import img10 from './Shoe10.jpeg'; 
+
+
 
 function App() {
   const [totalPrice, setTotalPrice] = useState(0.00);
@@ -6,16 +18,16 @@ function App() {
 
   // List of items with prices
   const items = [
-    { id: 1, name: 'ASIAN Thar-13 Sneaker', price: 40, imgSrc: '/src/Shoe1.jpeg' },
-    { id: 2, name: 'ASIAN Thar-14 Sneaker', price: 60, imgSrc: '/src/Shoe2.jpeg' },
-    { id: 3, name: 'ASIAN Thar-15 Sneaker', price: 100, imgSrc: '/src/Shoe3.jpeg' },
-    { id: 4, name: 'ASIAN Thar-16 Sneaker', price: 70, imgSrc: '/src/Shoe4.jpeg' },
-    { id: 5, name: 'ASIAN Thar-17 Sneaker', price: 80, imgSrc: '/src/Shoe5.jpeg' },
-    { id: 6, name: 'ASIAN Thar-18 Sneaker', price: 90, imgSrc: '/src/Shoe6.jpg' },
-    { id: 7, name: 'ASIAN Thar-19 Sneaker', price: 60, imgSrc: '/src/Shoe7.jpeg' },
-    { id: 8, name: 'ASIAN Thar-20 Sneaker', price: 50, imgSrc: '/src/Shoe8.jpg' },
-    { id: 9, name: 'ASIAN Thar-21 Sneaker', price: 65, imgSrc: '/src/Shoe9.jpeg' },
-    { id: 10, name: 'ASIAN Thar-22 Sneaker', price: 90, imgSrc: '/src/Shoe10.jpeg' }
+    { id: 1, name: 'ASIAN Thar-13 Sneaker', price: 40, imgSrc: img1 },
+    { id: 2, name: 'ASIAN Thar-14 Sneaker', price: 60, imgSrc: img2 },
+    { id: 3, name: 'ASIAN Thar-15 Sneaker', price: 100, imgSrc: img3 },
+    { id: 4, name: 'ASIAN Thar-16 Sneaker', price: 70, imgSrc: img4 },
+    { id: 5, name: 'ASIAN Thar-17 Sneaker', price: 80, imgSrc: img5 },
+    { id: 6, name: 'ASIAN Thar-18 Sneaker', price: 90, imgSrc: img6 },
+    { id: 7, name: 'ASIAN Thar-19 Sneaker', price: 60, imgSrc: img7 },
+    { id: 8, name: 'ASIAN Thar-20 Sneaker', price: 50, imgSrc: img8 },
+    { id: 9, name: 'ASIAN Thar-21 Sneaker', price: 65, imgSrc: img9 },
+    { id: 10, name: 'ASIAN Thar-22 Sneaker', price: 90, imgSrc: img10 }
   ];
 
   // Function to add items to the cart
